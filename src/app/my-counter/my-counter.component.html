@@ -1,0 +1,11 @@
+<div>Current Count: {{ count$ | async }}</div>
+<div>Objeto: {{ teste$ | async }}</div>
+
+<button id="increment" (click)="increment()">Increment</button>
+<button id="decrement" (click)="decrement()">Decrement</button>
+<button id="reset" (click)="reset()">Reset Counter</button>
+<br>
+<button id="homeScore" (click)="homeScore()">Home Score</button>
+<button id="awayScore" (click)="awayScore()">Away Score</button>
+<button id="resetScore" (click)="resetScore()">Reset Score</button>
+<!-- <button id="teste" (click)="homeScore()">Home Score</button> -->
